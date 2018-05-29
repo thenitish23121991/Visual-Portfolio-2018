@@ -824,7 +824,7 @@ html, body {
 
   .work_single_container:nth-child(2n) {
     margin-left: 16px; } }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1281px) {
   .work_single_container:nth-child(2n+1) {
     margin-left: 56px;
     margin-top: 64px; }
