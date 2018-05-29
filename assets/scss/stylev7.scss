@@ -334,7 +334,7 @@ height:312px;
 .work_single_container:nth-child(4) .work_cover_container{
 	background-image:url('../images/sureshot_larger.jpg');
 }
-.work_single_container:nth-child(5) .work_cover_container{
+.work_single_container:nth-child(5) .work_cover_container, .work_single_container:nth-child(6) .work_cover_container, .work_single_container:nth-child(7) .work_cover_container{
 	background:#eee;
 }
 .work_single_container:nth-child(5) .work_cover_overlay{
