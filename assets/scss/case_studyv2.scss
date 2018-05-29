@@ -749,6 +749,11 @@ left:0px;
 }
 
 
+.goqii_home_mockup{
+	width:600px;
+	height:450px;
+}
+
 
 
 
@@ -762,10 +767,111 @@ margin-top:96px;
 
 
 
+ #case_study_container .cover_container{
+ height:392px;
+ background-position:0px 0px;
+ }
 
+ #case_study_container .work_text_container{
+ padding-left:24px;
+ top:320px;
+ width:96%;
+ }
 
+ .works_title_text{
+	font-size:$website_body_2;
+	line-height:40px;
+}
+.work_para_text{
+	font-size:$website_caption_2;
+	line-height:36px;
+}
+.work_paragraph{
+	margin-top:40px;
+}
+.transparent_image_container{
+	margin-top:32px;
+}
+.screens_container{
+	margin-left:-24px;
+	padding:48px 0px;
+}
+.screens_container img:nth-child(n+2){
+margin-top:24px;	
+}
+.screens_container img:not(.large_image){
+	margin-left:0px;
+}
+.goqii_home_mockup{
+	width:300px;
+	height:225px;
+	margin-left:24px;
+}
+.centered_image_container{
+	margin-left:-24px;
+}
+.end_message_container{
+	margin-left:-32px;
+	margin-top:80px;
+}
+.end_line{
+	width:200px;
+}
+.end_message_text{
+	font-size:$website_caption_2;
+	line-height:36px;
+	margin-top:72px;
+	margin-left:12px;
+	width:90%;
+}
+.work_single_container{
+	width:280px;
+	height:284px;
+	margin-left:0px;
+	margin-top:64px;
+}
+.work_overlay_title{
+	margin-top:156px;
+	font-size:$website_subtitle_2;
+	margin-left:16px;
+}
+.work_overlay_desc{
+	font-size:$website_caption_2;
+	margin-top:0px;
+	margin-left:16px;
+	margin-top:-8px;
+}
 
-
+.work_single_container.studycopter_sureshot_work_container .work_cover_overlay .work_overlay_title{
+	margin-top:120px;
+	line-height:52px;
+}
+.work_single_container.studycopter_sureshot_work_container .work_cover_overlay .work_overlay_desc{
+	margin-top:8px;
+}
+.litewallet_work_container .work_overlay_title{
+	margin-top:136px;
+}
+.footer{
+	margin-left:-24px;
+}
+.footer_content_container{
+	width:94%; 
+}
+.footer_text_1{
+	font-size:$website_subtitle_2;
+	font-family:'TTNormsMedium';
+}
+.social_icon{
+	height:48px;
+	width:48px;
+}
+.social_icon:before{
+	font-size:21px;
+}
+#medium_social:before{
+	font-size:18px;
+}
 
 }
 
@@ -775,11 +881,256 @@ margin-top:96px;
 
 
 
+ #case_study_container .cover_container{
+ height:424px;
+ background-position:0px 0px;
+ background-size:760px 530px;
+ }
+
+ #case_study_container .work_text_container{
+ padding-left:24px;
+ top:336px;
+ width:98%;
+ }
+
+ .works_title_text{
+	font-size:$website_body_2;
+	line-height:40px;
+}
+.work_para_text{
+	font-size:$website_caption_2;
+	line-height:36px;
+}
+.work_paragraph{
+	margin-top:40px;
+}
+
+
+
+
+
+
+
+.transparent_image_container{
+	margin-top:32px;
+}
+.screens_container{
+	margin-left:-24px;
+	padding:48px 0px;
+}
+.screens_container img:nth-child(n+2){
+margin-top:24px;	
+}
+.screens_container img:not(.large_image){
+	margin-left:0px;
+}
+.goqii_home_mockup{
+	width:300px;
+	height:225px;
+	margin-left:24px;
+}
+.centered_image_container{
+	margin-left:-24px;
+}
+.end_message_container{
+	margin-left:-32px;
+	margin-top:80px;
+}
+.end_line{
+	width:200px;
+}
+.end_message_text{
+	font-size:$website_caption_2;
+	line-height:36px;
+	margin-top:72px;
+	margin-left:12px;
+	width:90%;
+}
+.work_single_container{
+	width:360px;
+	height:284px;
+	margin-left:0px;
+	margin-top:64px;
+}
+.work_overlay_title{
+	margin-top:156px;
+	font-size:$website_subtitle_2;
+	margin-left:16px;
+}
+.work_overlay_desc{
+	font-size:$website_caption_2;
+	margin-top:0px;
+	margin-left:16px;
+	margin-top:-8px;
+}
+
+.work_single_container.studycopter_sureshot_work_container .work_cover_overlay .work_overlay_title{
+	margin-top:168px;
+	line-height:52px;
+}
+.work_single_container.studycopter_sureshot_work_container .work_cover_overlay .work_overlay_desc{
+	margin-top:8px;
+}
+.litewallet_work_container .work_overlay_title{
+	margin-top:136px;
+}
+.footer{
+}
+.footer_content_container{
+	width:94%; 
+}
+.footer_text_1{
+	font-size:$website_subtitle_2;
+	font-family:'TTNormsMedium';
+}
+.social_icon{
+	height:48px;
+	width:48px;
+}
+.social_icon:before{
+	font-size:21px;
+}
+#medium_social:before{
+	font-size:18px;
+}
+
+
+
+
+
+
+
 }
 
 
 
 @media all and (min-width:768px) and (max-width:1020px){
+
+
+
+
+
+
+ #case_study_container .cover_container{
+ height:424px;
+ background-position:0px 0px;
+ }
+
+ #case_study_container .work_text_container{
+ padding-left:64px;
+ top:336px;
+ width:96%;
+ }
+
+ .works_title_text{
+	font-size:$website_body_2;
+	line-height:40px;
+}
+.work_para_text{
+	font-size:$website_caption_2;
+	line-height:36px;
+}
+.work_paragraph{
+	margin-top:40px;
+}
+
+
+
+
+
+
+
+.transparent_image_container{
+	margin-top:32px;
+}
+.screens_container{
+	margin-left:-24px;
+	padding:48px 0px;
+}
+.screens_container img:nth-child(n+2){
+margin-top:24px;	
+}
+.screens_container img:not(.large_image){
+	margin-left:0px;
+}
+.goqii_home_mockup{
+	width:300px;
+	height:225px;
+	margin-left:24px;
+}
+.centered_image_container{
+	margin-left:-24px;
+}
+.end_message_container{
+	margin-left:-32px;
+	margin-top:80px;
+}
+.end_line{
+	width:200px;
+}
+.end_message_text{
+	font-size:$website_caption_2;
+	line-height:36px;
+	margin-top:72px;
+	margin-left:12px;
+	width:90%;
+}
+.work_single_container{
+	width:336px;
+	height:284px;
+	margin-left:16px;
+	margin-top:64px;
+}
+.work_overlay_title{
+	margin-top:156px;
+	font-size:$website_subtitle_2;
+	margin-left:16px;
+}
+.work_overlay_desc{
+	font-size:$website_caption_2;
+	margin-top:0px;
+	margin-left:16px;
+	margin-top:-8px;
+}
+
+.work_single_container.studycopter_sureshot_work_container .work_cover_overlay .work_overlay_title{
+	margin-top:168px;
+	line-height:52px;
+}
+.work_single_container.studycopter_sureshot_work_container .work_cover_overlay .work_overlay_desc{
+	margin-top:8px;
+}
+.litewallet_work_container .work_overlay_title{
+	margin-top:136px;
+}
+.footer{
+}
+.footer_content_container{
+	width:94%; 
+}
+.footer_text_1{
+	font-size:$website_subtitle_2;
+	font-family:'TTNormsMedium';
+}
+.social_icon{
+	height:48px;
+	width:48px;
+}
+.social_icon:before{
+	font-size:21px;
+}
+#medium_social:before{
+	font-size:18px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
