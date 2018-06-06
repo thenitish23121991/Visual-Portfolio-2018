@@ -98,13 +98,21 @@ $website_caption_2: 19.42px;
 .container{
 	width:100%;
 	overflow-x:hidden;
+
+	perspective:800px;
+	-webkit-perspective:800px;
+		-moz-perspective:800px;
+			-ms-perspective:800px;
+				-o-perspective:800px;
 }
 
 .top_container{
 
 }
 .top_nav{
-	padding-left:58%;
+	padding-left:18%;
+	float:left;
+	padding-bottom:24px;
 }
 .top_nav ul{
 list-style-type:none;
@@ -173,8 +181,13 @@ position:relative;
 }
 .footer_inner_container{
 position:relative;
-	background-image:url('../images/footer_illustration_svg.svg');
-	background-size:cover;
+	background-image:url('../images/footer_illustration.jpg');
+    background-size:cover;
+}
+#footer_svg_container{
+position:relative;
+	height:100%;
+	width:100%;
 }
 .footer_content_container{
 width:100%;	
@@ -344,6 +357,16 @@ background:transparent;
 	color:#333;
 }
 
+
+.top_logo{
+width:34%;
+margin-left:$margin_left;
+float:left;
+}
+.top_logo img{
+	margin-top:18px;
+}
+
 .top_nav ul li a{
 	text-decoration:none;
 	color:#000;
@@ -353,8 +376,10 @@ background:transparent;
 position:fixed;
 	width:100%;
 	background:transparent;
-	padding-bottom:24px;
 	z-index:80;
+	overflow:hidden; 
+	will-change:background;
+	-webkit-will-change:background;
 }
 .top_drawer.scrolled{
 	background:#fff;
@@ -698,7 +723,223 @@ margin-top:6px;
 
 
 
+svg polygon, svg line, svg circle{
+	opacity:0;
+	transform:translateX(280px);
+    -webkit-transform:translateX(280px);
+	-moz-transform:translateX(280px);
+	-ms-transform:translateX(280px);
+	-o-transform:translateX(280px);
 
+
+transform-style: preserve-3d;
+-webkit-transform-style: preserve-3d;
+
+	transition: all .6s cubic-bezier(.03,-0.03,.04,.96) 0s;
+	-webkit-transition: all .6s cubic-bezier(.03,-0.03,.04,.96) 0s;
+	-moz-transition: all .6s cubic-bezier(.03,-0.03,.04,.96) 0s;
+	-ms-transition: all .6s cubic-bezier(.03,-0.03,.04,.96) 0s;
+	-o-transition: all .6s cubic-bezier(.03,-0.03,.04,.96) 0s;
+}
+
+
+
+
+svg polygon.show{
+	opacity:0;
+	transform:translateX(0px);
+    -webkit-transform:translateX(0px);
+	-moz-transform:translateX(0px);
+	-ms-transform:translateX(0px);
+	-o-transform:translateX(0px);
+}
+
+
+svg line.show{
+	opacity:0;
+	transform:translateX(0px);
+    -webkit-transform:translateX(0px);
+	-moz-transform:translateX(0px) rotateY(0deg);
+	-ms-transform:translateX(0px) rotateY(0deg);
+	-o-transform:translateX(0px) rotateY(0deg);	
+}
+
+
+svg circle.show{
+	opacity:0;
+	transform:translateX(0px);
+    -webkit-transform:translateX(0px);
+	-moz-transform:translateX(0px) rotateY(0deg);
+	-ms-transform:translateX(0px) rotateY(0deg);
+	-o-transform:translateX(0px) rotateY(0deg);
+}
+
+
+
+
+/*
+
+
+#XMLID_294_.show{
+	opacity:1;
+	
+transition-delay:1.4s;
+-webkit-transition-delay:1.4s;
+}
+
+#XMLID_207_, #XMLID_230_, #XMLID_198_, #XMLID_159{
+	
+transition-delay:.7s;
+-webkit-transition-delay:.85s;	
+}
+
+
+ lines:  ,  , XMLID_226_ ,  ,  , XMLID_223_ , XMLID_222_ , XMLID_221_ ,  ,  , XMLID_158_ , XMLID_251_ , XMLID_218_ , XMLID_598_ , XMLID_216_ , XMLID_215_ , ,  ,  , 
+
+circles: XMLID_294_ ,  , , XMLID_291_ , ,  ,  , XMLID_234_ , XMLID_233_ ,  , XMLID_231_ ,  , XMLID_230_ , 
+
+# polygons:  ,  , ,   , XMLID_206_ ,  ,  ,  ,  , XMLID_203_ , , XMLID_201_ ,  ,   , XMLID_197_
+
+
+*/
+
+
+
+#path_x5F_1.show{
+		opacity:1;
+	transition-delay: .15s;
+	-webkit-transition-delay: .15s;
+}
+
+
+
+#path_x5F_2.show{	
+opacity:1;
+	transition-delay: .19s;
+	-webkit-transition-delay: .19s;
+}
+
+#path_x5F_3.show, #path_x5F_4.show{	
+opacity:1;
+		transition-delay: .23s;
+	-webkit-transition-delay: .23s;
+}
+
+
+#path_x5F_5.show, #path_x5F_6.show{	
+opacity:1;
+		transition-delay: .27s;
+	-webkit-transition-delay: .27s;
+}
+
+#path_x5F_7.show, #path_x5F_8.show{	
+opacity:1;
+		transition-delay: .31s;
+	-webkit-transition-delay: .31s;
+}
+
+#path_x5F_9.show, #path_x5F_10.show, #path_x5F_11.show, #path_x5F_12.show, #path_x5F_13.show{	
+opacity:1;
+		transition-delay: .34s;
+	-webkit-transition-delay: .34s;
+}
+
+#path_x5F_14.show, #path_x5F_15.show{	
+opacity:1;
+		transition-delay: .37s;
+	-webkit-transition-delay: .37s;
+}
+
+
+#path_x5F_17.show, #path_x5F_17.show, #path_x5F_18.show{	
+opacity:1;
+		transition-delay: .4s;
+	-webkit-transition-delay: .4s;
+}
+
+#path_x5F_19.show, #path_x5F_20.show, #path_x5F_21.show, #path_x5F_22.show, #path_x5F_23.show, #path_x5F_24.show{	
+opacity:1;
+		transition-delay: .43s;
+	-webkit-transition-delay: .43s;
+}
+
+#path_x5F_25.show, #path_x5F_26.show, #path_x5F_27.show, #path_x5F_28.show{	
+opacity:1;
+		transition-delay: .46s;
+	-webkit-transition-delay: .46s;
+}
+
+#path_x5F_29.show, #path_x5F_30.show, #path_x5F_31.show, #path_x5F_32.show{	
+opacity:1;
+		transition-delay: .49;
+	-webkit-transition-delay: .49s;
+}
+
+#path_x5F_33.show, #path_x5F_34.show, #path_x5F_35.show, #path_x5F_36.show, #path_x5F_37.show{	
+opacity:1;
+		transition-delay: .52;
+	-webkit-transition-delay: .52s;
+}
+
+#path_x5F_38.show, #path_x5F_39.show, #path_x5F_40.show, #path_x5F_41.show, #path_x5F_42.show{	
+opacity:1;
+		transition-delay: .16;
+	-webkit-transition-delay: .16s;
+}
+
+#path_x5F_43.show, #path_x5F_44.show, #path_x5F_45.show, #path_x5F_46.show, #path_x5F_47.show{	
+opacity:1;
+		transition-delay: .16;
+	-webkit-transition-delay: .16s;
+}
+
+
+
+
+
+/*
+
+
+#XMLID_208_, #XMLID_228_, #XMLID_225_, #XMLID_214_{
+	
+transition-delay:.75s;
+-webkit-transition-delay:.75s;	
+}
+
+#XMLID_219_, #XMLID_293_, #XMLID_199_, #XMLID_207_, #XMLID_200_{
+	
+transition-delay:.8s;
+-webkit-transition-delay:.8s;	
+}
+
+#XMLID_227_, #XMLID_257_, #XMLID_292_, #XMLID_210_, #XMLID_204_, #XMLID_213_{
+	
+transition-delay:.85s;
+-webkit-transition-delay:.85s;	
+}
+
+
+#XMLID_224_, #XMLID_212_, #XMLID_211_, #XMLID_525_, #XMLID_615_, #XMLID_256_, #XMLID_232_{
+	
+transition-delay:.9s;
+-webkit-transition-delay:.9s;	
+}
+
+
+#XMLID_209_, #XMLID_202_ , #XMLID_205_, #XMLID_283, #XMLID_615_, #XMLID_599_, #XMLID_220_, #XMLID_219_{
+	
+transition-delay:.95s;
+-webkit-transition-delay:.95s;	
+}
+
+#XMLID_209_, #XMLID_202_ , #XMLID_205_, #XMLID_283, #XMLID_615_, #XMLID_599_, #XMLID_220_, #XMLID_219_{
+	
+transition-delay:1s;
+-webkit-transition-delay:1s;	
+}
+
+
+*/
 
 
 
@@ -1086,6 +1327,7 @@ width:100%;
 
 
 @media all and (min-width:1020px) and (max-width:1279px){
+
 
 
 }
