@@ -217,7 +217,7 @@ html, body {
   margin-top: 212px; }
 
 .work_overlay_desc {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.72);
   font-family: 'TTNorms';
   font-size: 27.98px;
   margin-left: 32px;
